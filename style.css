@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+  border: 1px solid rgb(248, 207, 153);  
+  border-radius: 4%;
+  background-color: bisque;
+  width: 50%;
+  height: 50%;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre de la carte */
+
+}
+.colorbox{
+    border: 1px solid rgb(248, 207, 153);  
+  border-radius: 4%;
+  background-color: rgb(248, 181, 99) ;
+  width: 50%;
+  height: 50%;
+
+}
+/* Style pour le titre h1 */
+h1 {
+    font-family: 'Arial', sans-serif; /* Police de caractère */
+    font-size: 2.5rem; /* Taille du texte */
+    color: #2c3e50; /* Couleur du texte */
+    text-align: center; /* Alignement du texte */
+    margin-top: 20px; /* Marge au-dessus du titre */
+    margin-bottom: 20px; /* Marge en-dessous du titre */
+    padding: 10px; /* Rembourrage interne */
+    border-bottom: 2px solid#94487b; /* Bordure en bas */
+}
+
+/* Style pour le bouton */
+button {
+    font-family: 'Arial', sans-serif; /* Police de caractère */
+    font-size: 1rem; /* Taille du texte */
+    color: #fff; /* Couleur du texte */
+    background-color: #94487b; /* Couleur de fond */
+    border: none; /* Suppression de la bordure par défaut */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 10px 20px; /* Rembourrage interne */
+    cursor: pointer; /* Curseur en forme de main */
+    transition: background-color 0.3s, transform 0.3s; /* Effets de transition */
+}
+
+/* Effet au survol pour le bouton */
+button:hover {
+    background-color: #9e2375; /* Couleur de fond au survol */
+    transform: scale(1.05); /* Agrandissement au survol */
+}
+
